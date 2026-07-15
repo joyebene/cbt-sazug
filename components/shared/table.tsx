@@ -20,7 +20,7 @@ export function Table({
             {columns.map((column) => (
               <th
                 key={column.key}
-                className="border-b p-4 text-left"
+                className="border-b border-gray-300 p-4 text-left"
               >
                 {column.title}
               </th>
@@ -34,7 +34,7 @@ export function Table({
               {columns.map((column) => (
                 <td
                   key={column.key}
-                  className="p-4 border-b"
+                  className="p-4 border-b border-gray-300"
                 >
                   {row[column.key]}
                 </td>

@@ -17,8 +17,8 @@ export default function LoginForm() {
       onSubmit={handleSubmit}
       className="space-y-5"
     >
-      <div>
-        <h2 className="text-white text-3xl font-bold">
+      <div className="mb-8">
+        <h2 className="text-white text-2xl sm:text-3xl font-bold">
           Welcome Back
         </h2>
 
@@ -38,7 +38,7 @@ export default function LoginForm() {
         placeholder="Enter password"
       />
 
-      <div className="flex justify-between text-sm text-white">
+      <div className="flex justify-between text-sm text-white py-2">
         <label className="flex gap-2 items-center">
           <input type="checkbox" />
           Remember me
@@ -52,7 +52,7 @@ export default function LoginForm() {
         </button>
       </div>
 
-      <Button>
+      <Button className="w-full bg-secondary">
         Sign In
       </Button>
     </form>

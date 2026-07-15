@@ -6,7 +6,7 @@ export function Card({
   children,
 }: CardProps) {
   return (
-    <div className="bg-white rounded-xl shadow-md p-6">
+    <div className="bg-white rounded-md shadow-md p-6">
       {children}
     </div>
   );

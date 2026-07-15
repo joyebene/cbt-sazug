@@ -18,7 +18,7 @@ export function Button({
     <button
       disabled={loading}
       className={cn(
-        "h-11 rounded-lg px-5 font-medium transition",
+        "h-11 rounded-md px-5 font-medium transition",
         {
           "bg-primary text-white hover:bg-primary-dark":
             variant === "primary",

@@ -16,7 +16,7 @@ export function Select({
     <div className="space-y-2">
       {label && <label>{label}</label>}
 
-      <select className="w-full h-11 border rounded-lg px-4">
+      <select title={label} className="w-full h-11 border rounded-lg px-4">
         {options.map((option) => (
           <option
             key={option.value}
